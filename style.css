@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f0f2f5;
+}
+
+.face-box {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+  
+}
+.face-box img{
+    width: 250px;
+    
+}
+
+.face-box h2{
+    position: relative;
+    font-size: 27px;
+    line-height: 28px;
+    width: auto;
+    margin-top: -28px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 35px;
+    word-spacing: 2.5px;
+}
+
+form{
+    position: absolute;
+    left: 55%;
+    top: 12%;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 1px;
+    padding: 20px 0 28px;
+    width: 380px;
+    height: 380px;
+}
+
+form input{
+    width: 320px;
+    margin-left: 12px;
+    padding: 15px 16px;
+    font-size: 17px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.login-btn{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 2px 16px;
+    width: 353px;
+    margin-left: 12px;
+    margin-top: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background-color: #006eff;
+}
+
+form a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-style: none;
+    text-decoration: none;
+    color: #1877f2;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+hr{
+    margin: 25px ;
+    opacity: .5;
+}
+
+.create-btn{
+    position: absolute;
+    left: 23%;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 50px;
+    padding: 0px 16px;
+    width: 200px;
+    margin-left: 12px;
+    margin-top: 7px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #42b72a;
+    border-color: #42b72a;
+    font-weight: bolder;
+    transition: .5s ease-in-out;
+}
+
+.create-btn:hover{
+    background-color: #3d8d2c;
+}
+
+.pages{
+    position: absolute;
+    top: 70%;
+    left: 58%;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.create-page{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+@media(max-width: 860px){
+    .face-box{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        left: 200px;
+    }
+    img{
+        position: relative;
+        left: 10%;
+    }
+    h2{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        font-size: 24px;
+        line-height: 28px;
+        width: auto;
+    }
+    form{
+        left: 25%;
+        top: 25%;
+      
+    }
+    .pages{
+        top: 82vh;
+        left: 30%;
+    }
+}
+
+input{
+    outline: none;
+    
+}
